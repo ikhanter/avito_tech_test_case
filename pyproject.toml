@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "avito-test"
+version = "0.1.0"
+description = ""
+authors = ["ikhanter <khantermail@mail.ru>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+asyncio = "^3.4.3"
+pytest = "^7.4.4"
+wemake-python-styleguide = "^0.18.0"
+aiohttp = "^3.9.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
